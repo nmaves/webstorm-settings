@@ -1,0 +1,17 @@
+<templateSet group="React">
+  <template name="cdm" value="componentDidMount() {&#10;&#9;$END$&#10;}" description="component did mount (lifecycle)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwm" value="componentWillMount() {&#10;&#9;$END$&#10;}" description="component will mount (lifecycle)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwu" value="componentWillUnmount() {&#10;&#9;$END$&#10;}" description="component will unmount (lifecycle)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
