@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="im" value="import {$END$} from '$PACKAGE$'" description="ES5 import" toReformat="false" toShortenFQNames="true">
+    <variable name="PACKAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
